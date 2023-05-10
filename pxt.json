@@ -1,0 +1,44 @@
+{
+    "name": "Gun Quest",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "color": "*",
+        "controller": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "multiplayer": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "pxt-circuit-playground-character-icons": "github:adafruit/circuit-playground-character-icons#v0.0.8",
+        "servo": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301",
+        "jacdac": "github:microsoft/pxt-jacdac#v1.8.41",
+        "darts": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.25",
+        "tag": "v1.12.25",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/e2750e18d567167d5fc4f7c49e2a64cc55da9d18",
+        "target": "1.12.30",
+        "pxt": "8.5.36",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
